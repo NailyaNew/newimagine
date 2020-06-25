@@ -1,0 +1,73 @@
+h1 {
+	color: white;
+	font-size: 45px;
+	padding: 15px 0px 0px 10px;
+}
+@font-face {
+	font-family: "monotype-corsiva1";
+	src: url("monotype-corsiva1.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+body {
+	background: url("img/фон.jpeg") 0 0 no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+button {
+	background-color: #fff;
+	color: #000;
+	height: 50px;
+	font-size: 30px;
+	position: relative;
+	border: 1px solid silver;
+}
+input {
+	width: 25px;
+	height: 25px;
+	margin: 5px 0px 0px 5px;
+
+}
+
+h2 {
+	text-align: center;
+	color: silver;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	font-size: 30px;
+	color: yellow;
+	text-decoration: underline;
+}
+a:active {
+	color: Silver;
+}
+a:visited {
+	color: Silver;
+}
+.git {
+	display: block;
+	font-size: 30px;
+	font-weight: 200;
+	text-align: center;
+	font-family: "monotype-corsiva1";
+}
+footer {
+	margin: 140px 0px 0px 0px;
+	font-family: "monotype-corsiva1";
+}
+h1 {
+	text-align: center;
+	font-family: "monotype-corsiva1";
+}
+#but {
+	margin-left: 47%;
+}
+#game {
+	margin-left: 43.5%;
+	opacity: 0;
+}
